@@ -1,0 +1,8 @@
+export const all_rights_reserved = '2020 © WINGYOURTHINK. All rights reserved.'
+export const about_us = 'About Us'
+export const loren_ipsum = 'Loren ipSum Loren ipSum Loren ipSum Loren ipSum Loren ipSum'
+export const company = 'Company'
+export const contact_us = 'Contact Us'
+export const careers = 'Careers'
+export const funding = 'Funding'
+export const investors = 'Investors'
