@@ -3,10 +3,11 @@ import './CustomFooterStyle.css'
 import * as Strings from '../../resources/strings/Strings'
 import * as AppConstants from '../../utils/AppConstants'
 import linkedIn from '../../resources/images/linkedin.png'
-import facebook from '../../resources/images/facebook.png'
 import twitter from '../../resources/images/twitter.png'
 import google from '../../resources/images/googleplus.png'
 import whatsapp from '../../resources/images/whatsapp.png'
+import Social from '../socialconnect/Social'
+import facebook from '../../resources/images/facebook.png'
 
 function CustomFooter() {
     return (
@@ -30,25 +31,30 @@ function CustomFooter() {
             <hr />
 
             <div className='SocialConnectionMainContent'>
-                <a href={AppConstants.FACE_BOOK} target="_blank">
-                    <img src={facebook} alt="facebook" className='SocialConnectionContent'></img>
-                </a>
+                <Social
+                    hrefLink={AppConstants.FACE_BOOK}
+                    imageSource={facebook}
+                    alternateName="facebook" />
 
-                <a href={AppConstants.WHATS_APP} target="_blank">
-                    <img src={whatsapp} alt="whatsapp" className='SocialConnectionContent'></img>
-                </a>
+                <Social
+                    hrefLink={AppConstants.WHATS_APP}
+                    imageSource={whatsapp}
+                    alternateName="whatsapp" />
 
-                <a href={AppConstants.LINKED_IN} target="_blank">
-                    <img src={linkedIn} alt="linkedIn" className='SocialConnectionContent'></img>
-                </a>
+                <Social
+                    hrefLink={AppConstants.LINKED_IN}
+                    imageSource={linkedIn}
+                    alternateName="linkedIn" />
 
-                <a href={AppConstants.GOOGLE_PLUS} target="_blank">
-                    <img src={google} alt="google" className='SocialConnectionContent'></img>
-                </a>
+                <Social
+                    hrefLink={AppConstants.GOOGLE_PLUS}
+                    imageSource={google}
+                    alternateName="google" />
 
-                <a href={AppConstants.TWITTER} target="_blank">
-                    <img src={twitter} alt="twitter" className='SocialConnectionContent'></img>
-                </a>
+                <Social
+                    hrefLink={AppConstants.TWITTER}
+                    imageSource={twitter}
+                    alternateName="twitter" />
 
             </div>
 
