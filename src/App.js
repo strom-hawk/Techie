@@ -4,7 +4,10 @@ import CustomFooter from "./components/customfooter/CustomFooter"
 
 function App() {
     return (
-        <CustomFooter />
+        <div>
+            
+            <CustomFooter />
+        </div>
     )
 }
 
