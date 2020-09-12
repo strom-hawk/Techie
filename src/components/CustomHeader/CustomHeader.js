@@ -1,7 +1,8 @@
 import React from 'react'
-import logo from '../../resources/images/linkedin.png'
+import logo from '../../resources/images/main_logo.png'
 import './CustomHeaderStyle.css'
 import SideDrawerToggleButton from '../SideDrawer/SideDrawerToggleButton'
+import HeaderItem from '../HeaderItem/HearderItem'
 
 class CustomHeader extends React.Component {
 
@@ -13,11 +14,11 @@ class CustomHeader extends React.Component {
                         <SideDrawerToggleButton click={this.props.drawerClickHandler}/>
                     </div>
                     <img src={logo} className='header_logo' />
-                    <div className='blank_space'/>
+                    {/* <div className='blank_space'/> */}
                     <div className='header_navigation_items'>
                         <ul>
-                            <li><a href='/'>PortFolio</a></li>
-                            <li><a href='/'>Features</a></li>
+                            <a><HeaderItem title="Portfolio"/></a>
+                            <a><HeaderItem title="Services"/></a>
                         </ul>
                     </div>
                 </div>

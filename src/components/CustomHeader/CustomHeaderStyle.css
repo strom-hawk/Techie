@@ -21,7 +21,8 @@
     height: var(--px50);
     width: var(--px50);
     align-items: center;
-    margin-left: var(--px10);
+    margin-left: var(--px30);
+    border-radius: 50%;
 }
 
 .blank_space{
@@ -30,7 +31,7 @@
 
 .header_navigation_items ul{
     list-style: none;
-    margin: var(--px0);
+    margin-left: var(--px50);
     padding:var(--px0);
     display: flex;
 }
@@ -42,7 +43,9 @@
 
 .header_navigation_items a{
     text-decoration: none;
-    color: black;
+    color: var(--color_header_contents);
+    margin-left: var(--px50);
+    cursor: pointer;
 }
 
 .header_navigation_items :hover,
