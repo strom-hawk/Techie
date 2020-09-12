@@ -6,9 +6,9 @@ import linkedIn from '../../resources/images/linkedin.png'
 import twitter from '../../resources/images/twitter.png'
 import google from '../../resources/images/googleplus.png'
 import whatsapp from '../../resources/images/whatsapp.png'
-import Social from '../socialconnect/Social'
+import Social from '../SocialConnect/Social'
 import facebook from '../../resources/images/facebook.png'
-import SubscriberNewsLetter from '../subsnewsletter/SubscriberNewsLetter'
+import SubscriberNewsLetter from '../SubsNewsLetter/SubscriberNewsLetter'
 
 
 class CustomFooter extends React.Component {

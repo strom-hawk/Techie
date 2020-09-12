@@ -37,7 +37,7 @@ hr {
 }
 
 .AboutUsStyle{
-    flex: 2;
+    flex: 1.7;
     margin: var(--px5);
     padding-left: var(--px10);
     font-family: Helvetica;

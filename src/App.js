@@ -1,12 +1,12 @@
 import React from "react"
-import ReactDOM from "react-dom"
-import CustomFooter from "./components/customfooter/CustomFooter"
+import CustomFooter from "./components/CustomFooter/CustomFooter"
+import CustomHeader from "./components/CustomHeader/CustomHeader"
 
 function App() {
     return (
         <div>
-            
-            <CustomFooter />
+            <CustomHeader/>
+            {/* <CustomFooter /> */}
         </div>
     )
 }
