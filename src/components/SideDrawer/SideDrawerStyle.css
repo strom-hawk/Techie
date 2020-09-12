@@ -38,3 +38,10 @@
 .side_drawer:active{
     color:orange;
 }
+
+@media(min-width: 796px){
+    .side_drawer{
+        display: none;
+        
+    }
+}

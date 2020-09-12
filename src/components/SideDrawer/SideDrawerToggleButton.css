@@ -15,7 +15,7 @@
 }
 
 .drawer_toggle_button_line{
-    width: 100%;
+    width: var(--px30);
     height: var(--px3);
     background: red;
 }

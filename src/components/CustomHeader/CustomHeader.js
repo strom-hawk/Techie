@@ -9,7 +9,7 @@ class CustomHeader extends React.Component {
         return (
             <div className='header_layout'>
                 <div className='header_navigation'>
-                    <div>
+                    <div className='header_toggle_button'>
                         <SideDrawerToggleButton click={this.props.drawerClickHandler}/>
                     </div>
                     <img src={logo} className='header_logo' />
