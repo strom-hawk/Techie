@@ -1,11 +1,13 @@
 @import '../../resources/values/Dimens.css';
+@import '../../resources/values/Colors.css';
 
 .header_layout{
     height: var(--px75);
     width: 100%;
-    position: fixed;
     top: var(--px0);
     left: var(--px0);
+    position: fixed;
+    background: var(--color_white);
 }
 
 .header_navigation{

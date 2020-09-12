@@ -3,7 +3,6 @@ import './SubscriberNewsLetterStyle.css'
 import * as Strings from '../../resources/strings/Strings'
 
 class SubscriberNewsLetter extends React.Component {
-
     handleSubmit(event){
         console.log('submit clicked')
         event.preventDefault();
