@@ -1,0 +1,50 @@
+@import '../../resources/values/Dimens.css';
+
+.header_layout{
+    height: var(--px75);
+    width: 100%;
+    position: fixed;
+    top: var(--px0);
+    left: var(--px0);
+    background: green;
+}
+
+.header_navigation{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: var(--px10);
+}
+
+.header_logo{
+    height: var(--px50);
+    width: var(--px50);
+    align-items: center;
+    margin-left: var(--px10);
+}
+
+.blank_space{
+    flex: 1;
+}
+
+.header_navigation_items ul{
+    list-style: none;
+    margin: var(--px0);
+    padding:var(--px0);
+    display: flex;
+}
+
+.header_navigation_items li{
+    padding-left: var(--px5);
+    padding-right: var(--px5);
+}
+
+.header_navigation_items a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_navigation_items :hover,
+.header_navigation_items :active{
+    color:orange;
+}
